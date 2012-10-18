@@ -82,6 +82,7 @@ public class solution {
 	{
         solution number = new solution();
         int largePrime = number.nthPrime(10001);
-        int stopper = 0;
+        System.out.println("The answer is "+ largePrime);
+
 	}
 }

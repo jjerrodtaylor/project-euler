@@ -1,4 +1,4 @@
-package edu.project.euler;
+package edu.project.euler.problem7;
 
 /**
  * Created by IntelliJ IDEA.

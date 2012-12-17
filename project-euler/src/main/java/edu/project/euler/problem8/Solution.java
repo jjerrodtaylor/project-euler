@@ -1,14 +1,12 @@
 package edu.project.euler.problem8;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+
 
 /**
  * Created by IntelliJ IDEA.
@@ -34,12 +32,6 @@ public class Solution {
         }
         catch(IOException e)
         {
-            log.warn("Unable to close connection to file"+filePath);
-            e.printStackTrace();
-        }
-        catch(FileNotFoundException e)
-        {
-            log.warn("Unable to find file"+filePath);
             e.printStackTrace();
         }
 
@@ -63,7 +55,6 @@ public class Solution {
         }
         catch(IOException e)
         {
-            log.warn("Unable to open connection to filereader line 53.");
             e.printStackTrace();
         }
 

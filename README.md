@@ -1,11 +1,28 @@
-project-euler
+What is Project Euler?
 
-Problem 7
+Project Euler is a series of challenging mathematical/computer
+programming problems that will require more than just mathematical
+insights to solve. Although mathematics will help you arrive at
+elegant and efficient methods, the use of a computer and programming
+skills will be required to solve most problems.
 
-By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+The motivation for starting Project Euler, and its continuation,
+is to provide a platform for the inquiring mind to delve into unfamiliar
+areas and learn new concepts in a fun and recreational context.
 
-What is the 10 001st prime number?
+Who are the problems aimed at?
 
-The answer is 104743
-=============
+The intended audience include students for whom the basic curriculum
+is not feeding their hunger to learn, adults whose background was not
+primarily mathematics but had an interest in things mathematical, and
+professionals who want to keep their problem solving and mathematics
+on the edge.
+
+Can anyone solve the problems?
+
+The problems range in difficulty and for many the experience is
+inductive chain learning. That is, by solving one problem it will
+expose you to a new concept that allows you to undertake a previously
+inaccessible problem. So the determined participant will slowly but
+surely work his/her way through every problem.
 

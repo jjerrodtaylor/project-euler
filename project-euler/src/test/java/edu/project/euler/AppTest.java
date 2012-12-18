@@ -1,14 +1,13 @@
 package edu.project.euler;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import junit.framework.*;
+
 
 /**
  * Unit test for simple App.
  */
 public class AppTest 
-    extends TestCase
+    //extends TestCase
 {
     /**
      * Create the test case
@@ -18,6 +17,7 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+
     }
 
     /**

@@ -1,7 +1,8 @@
 package edu.project.euler;
 
 import junit.framework.*;
-
+import edu.project.euler.problem7;
+import edu.project.euler.problem8;
 
 /**
  * Unit test for simple App.
@@ -21,18 +22,11 @@ public class AppTest
     }
 
     /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testcalculateNthPrime()
     {
+        Problem
         assertTrue( true );
     }
 }

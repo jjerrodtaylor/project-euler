@@ -16,11 +16,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b38d6e78-8f9c-43c9-90b9-394898225fae" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-euler/project-euler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prime.iws" afterPath="$PROJECT_DIR$/prime.iws" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/project/euler/problem7/Solution.java" afterPath="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem7/ProblemSeven.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prime.ipr" afterPath="$PROJECT_DIR$/prime.ipr" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/project/euler/problem8/Solution.java" afterPath="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/ProblemEight.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/project/euler/problem7/Answer.java" afterPath="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem7/Answer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/project/euler/problem8/Solution.java" afterPath="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/ProblemEight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prime.ipr" afterPath="$PROJECT_DIR$/prime.ipr" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/edu/project/euler/problem7/Solution.java" afterPath="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem7/ProblemSeven.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prime.iws" afterPath="$PROJECT_DIR$/prime.iws" />
     </list>
     <ignored path="prime.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,20 +40,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/ProblemEight.java" line="67" class="edu.project.euler.problem8.ProblemEight" package="edu.project.euler.problem8">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/Answers.java" line="27" class="edu.project.euler.Answers" package="edu.project.euler">
+      <breakpoint url="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/ProblemEight.java" line="53" class="edu.project.euler.problem8.ProblemEight" package="edu.project.euler.problem8">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -107,24 +94,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProblemEight.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProblemEight.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/ProblemEight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="48" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.775">
-              <folding>
-                <element signature="method#turnListToString#0;class#ProblemEight#0" expanded="false" />
-              </folding>
+            <state line="87" column="0" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Answers.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ProblemSeven.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem7/ProblemSeven.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="45" selection-start="259" selection-end="345" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Answers.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/Answers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="30" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="40" column="76" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.78456014">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,12 +155,12 @@
         <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem7/README.md" />
         <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/README.md" />
         <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/numbers.txt" />
-        <option value="$PROJECT_DIR$/project-euler/src/test/java/edu/project/euler/AppTest.java" />
         <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem7/Problem7.java" />
         <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/Solution.java" />
         <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/Answer.java" />
-        <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/Answers.java" />
+        <option value="$PROJECT_DIR$/project-euler/src/test/java/edu/project/euler/AppTest.java" />
         <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/ProblemEight.java" />
+        <option value="$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/Answers.java" />
       </list>
     </option>
   </component>
@@ -221,6 +213,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Favorites" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -252,6 +245,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="euler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,9 +352,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problem7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,24 +576,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="805" extended-state="6" />
+    <frame x="-1280" y="-327" width="1280" height="1024" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37554586" sideWeight="0.9992816" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3388521" sideWeight="0.99918765" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12940331" sideWeight="0.62445414" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16734362" sideWeight="0.6611479" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21567218" sideWeight="0.62445414" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2112104" sideWeight="0.6611479" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17721519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -651,40 +703,38 @@
         <state line="5" column="20" selection-start="238" selection-end="238" vertical-scroll-proportion="0.11398176" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-euler/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem7/ProblemSeven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="251" selection-end="296" vertical-scroll-proportion="0.29816514">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project-euler/src/test/java/edu/project/euler/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="0.17336683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/Answers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
+        <state line="9" column="34" selection-start="183" selection-end="183" vertical-scroll-proportion="0.2180937">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem7/ProblemSeven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="259" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-euler/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="4" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/problem8/ProblemEight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="48" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.775">
-          <folding>
-            <element signature="method#turnListToString#0;class#ProblemEight#0" expanded="false" />
-          </folding>
+        <state line="87" column="0" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-euler/src/main/java/edu/project/euler/Answers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="76" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.78456014">
+          <folding />
         </state>
       </provider>
     </entry>

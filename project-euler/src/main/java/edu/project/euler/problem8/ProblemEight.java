@@ -64,9 +64,28 @@ public class ProblemEight {
         {
             longString += listOfStrings.get(i);
         }
-
         return longString;
     }
 
-    public ArrayList<int> performMultiplication()
+    public String[] splitString(String s)
+    {
+        return s.split("(?!^)");
+    }
+
+    public int performMultiplication(String[] s, int beginning, int ending)
+    {
+        int product = 1;
+        for(int i=beginning; i<ending +1; i++)
+        {
+            product = product * Integer.parseInt(s[i]);
+        }
+
+        return product;
+    }
+
+
+
+
+
+
 }

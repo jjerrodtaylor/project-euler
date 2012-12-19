@@ -37,4 +37,25 @@ public class AppTest extends TestCase
         listOfNumbers.add(3);
         assertEquals(true, pSeven.checkPreviousAnswers(2,listOfNumbers));
     }
+
+    public void testSplitString()
+    {
+        ProblemEight pEight = new ProblemEight();
+        String test = "test";
+        String[] testArray = pEight.splitString(test);
+        assertEquals("t",testArray[0]);
+        assertEquals("e",testArray[1]);
+        assertEquals("s",testArray[2]);
+        assertEquals("t",testArray[3]);
+
+    }
+
+    public void testPerformMultiplication()
+    {
+        ProblemEight pEight = new ProblemEight();
+        String multiplyString = "1234";
+        String[] multiplyArray = pEight.splitString(multiplyString);
+        int result = pEight.performMultiplication(multiplyArray,0,3);
+        assertEquals(24,result);
+    }
 }

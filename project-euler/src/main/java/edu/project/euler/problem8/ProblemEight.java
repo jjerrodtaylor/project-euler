@@ -17,6 +17,8 @@ import java.util.List;
  */
 public class ProblemEight {
 
+    private int[] numberArray;
+
     public ProblemEight()
     {
         super();
@@ -83,9 +85,25 @@ public class ProblemEight {
         return product;
     }
 
+    public void sort(int[] values)
+    {
+        if(values == null || values.length == 0)
+        {
+            return;
+        }
+        this.numberArray = values;
+        quickSort(0, values.length);
+    }
 
+    public void quickSort(int low, int high)
+    {
 
+    }
 
-
-
+    public void swap(int i, int j)
+    {
+        int temp = numberArray[i];
+        numberArray[i] = numberArray[j];
+        numberArray[j] = temp;
+    }
 }

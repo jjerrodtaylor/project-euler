@@ -1,6 +1,7 @@
 package edu.project.euler.problem7;
 
 import java.util.ArrayList;
+import edu.project.euler.tools.*;
 
 /**
  * Created by IntelliJ IDEA.
@@ -13,10 +14,48 @@ public class ProblemSeven {
 
     private ArrayList<Integer> primeNumbers;
     private ArrayList<Integer> listOfFactors;
+    private Memoizer memoizer = new Memoizer();
 
     public ProblemSeven()
     {
         super();
+        this.primeNumbers = new ArrayList<Integer>();
+        this.listOfFactors = new ArrayList<Integer>();
+    }
+
+    public ProblemSeven(ArrayList<Integer> primeNumbers, ArrayList<Integer> listOfFactors)
+    {
+        this.primeNumbers = primeNumbers;
+        this.listOfFactors = listOfFactors;
+    }
+
+    //getter method for primeNumbers
+    public ArrayList<Integer> getPrimeNumbers()
+    {
+        return primeNumbers;
+    }
+
+    //getter method for listOfFactors
+    public ArrayList<Integer> getListOfFactors()
+    {
+        return listOfFactors;
+    }
+
+    //setter method for primeNumbers
+    public void setPrimeNumbers(ArrayList<Integer> primeNumbers)
+    {
+        this.primeNumbers = primeNumbers;
+    }
+
+    public void setIndividualPrimeNumber(int primeNumber)
+    {
+        this.primeNumbers.add(primeNumber);
+    }
+
+    //setter method for listOfFactors
+    public void setListOfFactors(ArrayList<Integer> listOfFactors)
+    {
+        this.listOfFactors = listOfFactors;
     }
 
     //Precondition:Takes a single integer and a single list of
@@ -25,7 +64,7 @@ public class ProblemSeven {
     //Postcondition: Returns a boolean TRUE if the single
     //integer is in the list that is passed and returns
     //false otherwise.
-    public boolean checkPreviousAnswers(int numberToCheckFor,
+    /*public boolean checkPreviousAnswers(int numberToCheckFor,
                                         ArrayList<Integer> listOfPrimes)
     {
         for(int i = 0; i < listOfPrimes.size(); i++)
@@ -37,7 +76,7 @@ public class ProblemSeven {
         }
 
         return false;
-    }
+    }*/
 
     //Precondition: Takes two integers
     //Postcondition: Returns true if the second number is a factor
@@ -52,6 +91,7 @@ public class ProblemSeven {
         return false;
     }
 
+
     //Precondition:Takes a single integer.
     //Postcondition: Returns a single integer that is prime.
     //eg. calculateNthPrime(24) returns the 24th prime number.
@@ -60,8 +100,8 @@ public class ProblemSeven {
         int numberUpTo = 1;
         int counter = 0;
 
-        primeNumbers = new ArrayList<Integer>();
-        listOfFactors = new ArrayList<Integer>();
+        //primeNumbers = new ArrayList<Integer>();
+        //listOfFactors = new ArrayList<Integer>();
 
         while(primeNumbers.size() < numberPrime)
         {
@@ -83,6 +123,7 @@ public class ProblemSeven {
                 && (listOfFactors.get(1) == numberUpTo) )
             {
                 primeNumbers.add(numberUpTo);
+                memoizer.cacheValue(primeNumbers.indexOf(numberUpTo),numberUpTo);
             }
 
             numberUpTo += 1;

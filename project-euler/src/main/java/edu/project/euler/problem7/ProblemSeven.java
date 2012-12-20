@@ -58,26 +58,6 @@ public class ProblemSeven {
         this.listOfFactors = listOfFactors;
     }
 
-    //Precondition:Takes a single integer and a single list of
-    // intergers. The list of integers should be a list of
-    // primes.
-    //Postcondition: Returns a boolean TRUE if the single
-    //integer is in the list that is passed and returns
-    //false otherwise.
-    /*public boolean checkPreviousAnswers(int numberToCheckFor,
-                                        ArrayList<Integer> listOfPrimes)
-    {
-        for(int i = 0; i < listOfPrimes.size(); i++)
-        {
-            if(listOfPrimes.get(i).equals(numberToCheckFor))
-            {
-                return true;
-            }
-        }
-
-        return false;
-    }*/
-
     //Precondition: Takes two integers
     //Postcondition: Returns true if the second number is a factor
     //of the first number that is passed in. Returns false otherwise.

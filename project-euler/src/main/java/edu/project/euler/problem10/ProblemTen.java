@@ -20,6 +20,11 @@ public class ProblemTen{
         super();
     }
 
+    public ArrayList<Long> getPrimeNumbers()
+    {
+        return this.primeNumbers;
+    }
+
     public void runEratosthenesSieve(int upperBound)
     {
         int upperBoundSquareRoot = (int) Math.sqrt(upperBound);

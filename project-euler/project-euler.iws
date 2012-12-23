@@ -87,20 +87,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProblemTen.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ProblemTen.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/ProblemTen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="23" column="4" selection-start="461" selection-end="461" vertical-scroll-proportion="0.4787234">
+              <folding>
+                <element signature="method#getPrimeNumbers#0;class#ProblemTen#0" expanded="false" />
+                <element signature="method#runEratosthenesSieve#0;class#ProblemTen#0" expanded="false" />
+                <element signature="method#addPrimesBelow#0;class#ProblemTen#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProblemSeven.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem7/ProblemSeven.java">
+      <file leaf-file-name="ProblemEight.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem8/ProblemEight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="25" selection-start="260" selection-end="3331" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="75" column="32" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#splitString#0;class#ProblemEight#0" expanded="false" />
+                <element signature="method#performMultiplication#0;class#ProblemEight#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,16 +115,7 @@
       <file leaf-file-name="AppTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/project/euler/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="10" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Answers.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/Answers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="57" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.6658416">
+            <state line="88" column="66" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,10 +165,10 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/tools/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/tools/CalculatePrimeNumberCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/tools/Memoizer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/project/euler/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/problem7/ProblemSeven.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/ProblemTen.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/Answers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/ProblemTen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/project/euler/AppTest.java" />
       </list>
     </option>
   </component>
@@ -213,9 +211,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -412,8 +407,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problem7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="euler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problem10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,28 +640,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="807" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32365748" sideWeight="0.9482387" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32365748" sideWeight="0.9482387" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19913732" sideWeight="0.67634255" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19913732" sideWeight="0.67634255" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -665,11 +723,6 @@
         <state line="7" column="18" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem8/ProblemEight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="32" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem9/ProblemNine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="17" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" />
@@ -678,11 +731,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem7/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/project/euler/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="10" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/tools/Memoizer.java">
@@ -702,22 +750,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem7/ProblemSeven.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="25" selection-start="260" selection-end="3331" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#checkForFactor#0;class#ProblemSeven#0" expanded="false" />
+            <element signature="method#calculateNthPrime#0;class#ProblemSeven#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem8/ProblemEight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="32" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/Answers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="499" selection-end="499" vertical-scroll-proportion="0.16">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/project/euler/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="66" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/ProblemTen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/Answers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="57" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.6658416">
-          <folding />
+        <state line="23" column="4" selection-start="461" selection-end="461" vertical-scroll-proportion="0.4787234">
+          <folding>
+            <element signature="method#getPrimeNumbers#0;class#ProblemTen#0" expanded="false" />
+            <element signature="method#runEratosthenesSieve#0;class#ProblemTen#0" expanded="false" />
+            <element signature="method#addPrimesBelow#0;class#ProblemTen#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

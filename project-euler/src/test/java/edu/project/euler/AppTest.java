@@ -1,5 +1,6 @@
 package edu.project.euler;
 
+import edu.project.euler.problem10.ProblemTen;
 import junit.framework.*;
 import edu.project.euler.problem7.ProblemSeven;
 import edu.project.euler.problem8.ProblemEight;
@@ -14,6 +15,7 @@ public class AppTest extends TestCase
     /**
      * Rigourous Test :-)
      */
+    //begin problem 7 tests
     public void testcalculateNthPrime()
     {
         ProblemSeven pSeven = new ProblemSeven();
@@ -38,6 +40,7 @@ public class AppTest extends TestCase
         //assertEquals(true, pSeven.checkPreviousAnswers(2,listOfNumbers));
     }
 
+    //Begin problem 8 tests
     public void testSplitString()
     {
         ProblemEight pEight = new ProblemEight();
@@ -57,5 +60,29 @@ public class AppTest extends TestCase
         String[] multiplyArray = pEight.splitString(multiplyString);
         int result = pEight.performMultiplication(multiplyArray,0,3);
         assertEquals(24,result);
+    }
+
+    //begin problem 10 tests
+    public void testRunrunEratosthenesSieve()
+    {
+        ProblemTen pTen = new ProblemTen();
+        pTen.runEratosthenesSieve(10);
+        ArrayList<Long> testList = pTen.getPrimeNumbers();
+        long test1 = testList.get(0);
+        long test2 = testList.get(1);
+        long test3 = testList.get(2);
+        long test4 = testList.get(3);
+        assertEquals(2, test1);
+        assertEquals(3, test2);
+        assertEquals(5, test3);
+        assertEquals(7, test4);
+    }
+
+    public void testAddPrimesBelow()
+    {
+        ProblemTen pTen = new ProblemTen();
+        pTen.runEratosthenesSieve(5);
+        long answer = pTen.addPrimesBelow();
+        assertEquals(10, answer);
     }
 }

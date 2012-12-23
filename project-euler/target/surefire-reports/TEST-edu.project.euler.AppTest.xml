@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.011" errors="0" skipped="0" tests="5" name="edu.project.euler.AppTest">
+<testsuite failures="0" time="0.014" errors="0" skipped="0" tests="7" name="edu.project.euler.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/jamaal.taylor/prime/project-euler"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/jamaal.taylor/prime/project-euler/target/surefire/surefirebooter1369793197406032255.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jamaal.taylor/prime/project-euler/target/surefire/surefirebooter5689911441882851013.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/n8/fl9zbtbs40g4nbrhwybn5y0w0000gp/T/"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Users/jamaal.taylor/prime/project-euler/target/surefire/surefirebooter1369793197406032255.jar /Users/jamaal.taylor/prime/project-euler/target/surefire/surefire2688840941882099428tmp /Users/jamaal.taylor/prime/project-euler/target/surefire/surefire3339428125201105029tmp"/>
+    <property name="sun.java.command" value="/Users/jamaal.taylor/prime/project-euler/target/surefire/surefirebooter5689911441882851013.jar /Users/jamaal.taylor/prime/project-euler/target/surefire/surefire7903616558120904415tmp /Users/jamaal.taylor/prime/project-euler/target/surefire/surefire939231044143816293tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -68,6 +68,8 @@
   <testcase time="0.002" classname="edu.project.euler.AppTest" name="testcalculateNthPrime"/>
   <testcase time="0" classname="edu.project.euler.AppTest" name="testCheckForFactor"/>
   <testcase time="0" classname="edu.project.euler.AppTest" name="testCheckPreviousAnswer"/>
-  <testcase time="0.002" classname="edu.project.euler.AppTest" name="testSplitString"/>
+  <testcase time="0.001" classname="edu.project.euler.AppTest" name="testSplitString"/>
   <testcase time="0" classname="edu.project.euler.AppTest" name="testPerformMultiplication"/>
+  <testcase time="0.001" classname="edu.project.euler.AppTest" name="testRunrunEratosthenesSieve"/>
+  <testcase time="0" classname="edu.project.euler.AppTest" name="testAddPrimesBelow"/>
 </testsuite>

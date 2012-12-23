@@ -19,7 +19,7 @@ public class Answers {
 
      public static void main(String args[])
 	 {
-        /* //problem 7
+         //problem 7
         ProblemSeven number = new ProblemSeven();
         int largePrime = number.calculateNthPrime(5);
         System.out.println("The answer is "+ largePrime);
@@ -39,7 +39,7 @@ public class Answers {
 
          Collections.sort(listOfProducts);
          int largestProduct = listOfProducts.get(listOfProducts.size()-1);
-         System.out.println("The greatest product of five consecutive digits is"+largestProduct); */
+         System.out.println("The greatest product of five consecutive digits is"+largestProduct);
 
          //problem 10
          ProblemTen pTen = new ProblemTen();

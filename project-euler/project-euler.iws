@@ -87,15 +87,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProblemTen.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProblemTen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/ProblemTen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="4" selection-start="461" selection-end="461" vertical-scroll-proportion="0.4787234">
+            <state line="23" column="4" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#getPrimeNumbers#0;class#ProblemTen#0" expanded="false" />
                 <element signature="method#runEratosthenesSieve#0;class#ProblemTen#0" expanded="false" />
                 <element signature="method#addPrimesBelow#0;class#ProblemTen#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="49" selection-start="104" selection-end="104" vertical-scroll-proportion="0.047021944">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/Answers.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/ProblemTen.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/project/euler/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/README.md" />
       </list>
     </option>
   </component>
@@ -779,12 +789,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/ProblemTen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="461" selection-end="461" vertical-scroll-proportion="0.4787234">
+        <state line="23" column="4" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#getPrimeNumbers#0;class#ProblemTen#0" expanded="false" />
             <element signature="method#runEratosthenesSieve#0;class#ProblemTen#0" expanded="false" />
             <element signature="method#addPrimesBelow#0;class#ProblemTen#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/project/euler/problem10/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="49" selection-start="104" selection-end="104" vertical-scroll-proportion="0.047021944">
+          <folding />
         </state>
       </provider>
     </entry>

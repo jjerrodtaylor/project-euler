@@ -35,7 +35,8 @@ public class ProblemEight {
             br = new BufferedReader(new FileReader(filepath));
             while((currentLine = br.readLine()) != null)
             {
-                fileContents.add(br.readLine());
+                //fileContents.add(br.readLine());
+                fileContents.add(currentLine);
             }
 
         }
